@@ -1,11 +1,8 @@
 module BasicSyntaxLesson
 
-using TOML
-import Juliet
+using Juliet, TOML
 
 export juliet
-
-juliet = Juliet.juliet
 
 text = """
 name = "Basic syntax"
